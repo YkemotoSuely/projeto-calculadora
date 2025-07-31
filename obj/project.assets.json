@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DesenvolvimentoSistemas\\Caclculadora\\Caclculadora.csproj",
-      "projectName": "Caclculadora",
-      "projectPath": "C:\\DesenvolvimentoSistemas\\Caclculadora\\Caclculadora.csproj",
+      "projectUniqueName": "C:\\DesenvolvimentoSistemas\\Caclculadora\\Calculadora.csproj",
+      "projectName": "Calculadora",
+      "projectPath": "C:\\DesenvolvimentoSistemas\\Caclculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\suely.ykemoto\\.nuget\\packages\\",
       "outputPath": "C:\\DesenvolvimentoSistemas\\Caclculadora\\obj\\",
       "projectStyle": "PackageReference",
