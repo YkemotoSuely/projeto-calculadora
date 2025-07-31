@@ -1,0 +1,17 @@
+C:\DesenvolvimentoSistemas\Caclculadora\bin\Debug\net8.0-windows\Calculadora.exe
+C:\DesenvolvimentoSistemas\Caclculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+C:\DesenvolvimentoSistemas\Caclculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+C:\DesenvolvimentoSistemas\Caclculadora\bin\Debug\net8.0-windows\Calculadora.dll
+C:\DesenvolvimentoSistemas\Caclculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Caclculadora.Calculadora.resources
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.sourcelink.json
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.dll
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+C:\DesenvolvimentoSistemas\Caclculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
