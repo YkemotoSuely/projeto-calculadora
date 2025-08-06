@@ -9,8 +9,21 @@ namespace Caclculadora
 
         private void btnSomar_Click(object sender, EventArgs e)
 
-        {   //Verifica se os campos de entrada estão preenchidos
-            double numero1 = Convert.ToDouble(txtNumero1.Text);
+        {   //validação de campos 
+
+
+            if (string.IsNullOrWhiteSpace(txtNumero1.Text))
+            {
+                MessageBox.Show("O primeiro campo está vazio.Digite um número");
+            }
+
+            if (string.IsNullOrEmpty(txtNumero2.Text))
+            {
+                MessageBox.Show("O segundo campo está vazio. Digite um número");
+            }
+
+                //Verifica se os campos de entrada estão preenchidos
+                double numero1 = Convert.ToDouble(txtNumero1.Text);
             double numero2 = Convert.ToDouble(txtNumero2.Text);
 
             // Realiza a soma dos números e exibe o resultado
