@@ -19,7 +19,8 @@ namespace Caclculadora
             if (string.IsNullOrWhiteSpace(txtNumero1.Text))
             {
                 MessageBox.Show("O primeiro campo está vazio. Digite um número.");
-            }
+            } 
+           
             else if (!double.TryParse(txtNumero1.Text, out _))
             {
                 MessageBox.Show("O primeiro campo contém caracteres inválidos. Digite apenas números.");
@@ -29,6 +30,7 @@ namespace Caclculadora
             {
                 MessageBox.Show("O segundo campo está vazio. Digite um número.");
             }
+
             else if (!double.TryParse(txtNumero2.Text, out _))
             {
                 MessageBox.Show("O segundo campo contém caracteres inválidos. Digite apenas números.");
@@ -50,16 +52,64 @@ namespace Caclculadora
 
         private void btnSubtrair_Click(object sender, EventArgs e)
 
-        {   //Verifica se os campos de entrada estão preenchidos
-            double numero1 = Convert.ToDouble(txtNumero1.Text);
-            double numero2 = Convert.ToDouble(txtNumero2.Text);
+        {
+            {   //validação de campos 
 
-            // Realiza a subtração dos números e exibe o resultado
-            lblResultado.Text = (numero1 - numero2).ToString();
+
+                if (string.IsNullOrWhiteSpace(txtNumero1.Text))
+                {
+                    MessageBox.Show("O primeiro campo está vazio. Digite um número.");
+                }
+
+                else if (!double.TryParse(txtNumero1.Text, out _))
+                {
+                    MessageBox.Show("O primeiro campo contém caracteres inválidos. Digite apenas números.");
+                }
+
+                if (string.IsNullOrWhiteSpace(txtNumero2.Text))
+                {
+                    MessageBox.Show("O segundo campo está vazio. Digite um número.");
+                }
+
+                else if (!double.TryParse(txtNumero2.Text, out _))
+                {
+                    MessageBox.Show("O segundo campo contém caracteres inválidos. Digite apenas números.");
+                }
+
+                //Verifica se os campos de entrada estão preenchidos
+                double numero1 = Convert.ToDouble(txtNumero1.Text);
+                double numero2 = Convert.ToDouble(txtNumero2.Text);
+
+                // Realiza a subtração dos números e exibe o resultado
+                lblResultado.Text = (numero1 - numero2).ToString();
+            }
+
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
+            //validação de campos 
+
+
+            if (string.IsNullOrWhiteSpace(txtNumero1.Text))
+            {
+                MessageBox.Show("O primeiro campo está vazio. Digite um número.");
+            }
+
+            else if (!double.TryParse(txtNumero1.Text, out _))
+            {
+                MessageBox.Show("O primeiro campo contém caracteres inválidos. Digite apenas números.");
+            }
+
+            if (string.IsNullOrWhiteSpace(txtNumero2.Text))
+            {
+                MessageBox.Show("O segundo campo está vazio. Digite um número.");
+            }
+
+            else if (!double.TryParse(txtNumero2.Text, out _))
+            {
+                MessageBox.Show("O segundo campo contém caracteres inválidos. Digite apenas números.");
+            }
             //Verifica se os campos de entrada estão preenchidos
             double numero1 = Convert.ToDouble(txtNumero1.Text);
             double numero2 = Convert.ToDouble(txtNumero2.Text);
@@ -70,6 +120,29 @@ namespace Caclculadora
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
+            //validação de campos 
+
+
+            if (string.IsNullOrWhiteSpace(txtNumero1.Text))
+            {
+                MessageBox.Show("O primeiro campo está vazio. Digite um número.");
+            }
+
+            else if (!double.TryParse(txtNumero1.Text, out _))
+            {
+                MessageBox.Show("O primeiro campo contém caracteres inválidos. Digite apenas números.");
+            }
+
+            if (string.IsNullOrWhiteSpace(txtNumero2.Text))
+            {
+                MessageBox.Show("O segundo campo está vazio. Digite um número.");
+            }
+
+            else if (!double.TryParse(txtNumero2.Text, out _))
+            {
+                MessageBox.Show("O segundo campo contém caracteres inválidos. Digite apenas números.");
+            }
+
             double numero1 = Convert.ToDouble(txtNumero1.Text);
             double numero2 = Convert.ToDouble(txtNumero2.Text);
 
